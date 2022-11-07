@@ -17,3 +17,6 @@ writeStream.on('error', (err) => console.log(err));
 process.on('SIGINT', () => process.exit());
 
 process.on('exit', () => process.stdout.write('Bye, see you again.'));
+
+
+
